@@ -38,6 +38,7 @@ make clean
 --disable-network \
 --disable-pixelutils \
 --disable-encoders \
+--disable-yasm \
 --enable-encoder=aac \
 --enable-encoder=pcm_f64le \
 --enable-encoder=pcm_s16le \
