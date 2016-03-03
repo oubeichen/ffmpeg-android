@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SUPPORTED_ARCHITECTURES=(armeabi-v7a)
+SUPPORTED_ARCHITECTURES=(armeabi-v7a x86)
 ANDROID_NDK=~/android-ndk-r10e/
 ANDROID_NDK_ROOT_PATH=${ANDROID_NDK}
 if [[ -z "$ANDROID_NDK_ROOT_PATH" ]]; then
