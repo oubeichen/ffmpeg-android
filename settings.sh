@@ -12,7 +12,7 @@ NDK_TOOLCHAIN_ABI_VERSION=4.8
 
 NUMBER_OF_CORES=8
 HOST_UNAME=$(uname -m)
-TARGET_OS=darwin
+TARGET_OS=linux
 
 CFLAGS='-U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -fno-strict-overflow -fstack-protector-all'
 LDFLAGS='-Wl,-z,relro -Wl,-z,now -pie'
