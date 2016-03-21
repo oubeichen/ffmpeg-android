@@ -13,3 +13,6 @@
 [submodule "fontconfig"]
 	path = fontconfig
 	url = git://anongit.freedesktop.org/fontconfig
+[submodule "fdk-aac"]
+	path = fdk-aac
+	url = https://github.com/mstorsjo/fdk-aac.git

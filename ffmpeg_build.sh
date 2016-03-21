@@ -39,6 +39,7 @@ make clean
 --disable-pixelutils \
 --disable-encoders \
 --enable-encoder=aac \
+--enable-encoder=libfdk_aac \
 --enable-encoder=pcm_f64le \
 --enable-encoder=pcm_s16le \
 --disable-decoders \
@@ -75,6 +76,7 @@ make clean
 --enable-muxer=h264 \
 --enable-muxer=pcm_f64le \
 --enable-muxer=pcm_s16le \
+--enable-libfdk-aac \
 --pkg-config="${2}/ffmpeg-pkg-config" \
 --prefix="${2}/build/${1}" \
 --extra-cflags="-I${TOOLCHAIN_PREFIX}/include $CFLAGS" \

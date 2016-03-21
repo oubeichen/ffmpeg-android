@@ -16,6 +16,7 @@ do
   # $1 = architecture
   # $2 = base directory
   # $3 = pass 1 if you want to export default compiler environment variables
+  ./fdkaac_build.sh $i $BASEDIR 1 || exit 1
   ./ffmpeg_build.sh $i $BASEDIR 0 || exit 1
 done
 
