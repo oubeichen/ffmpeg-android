@@ -42,6 +42,7 @@ make clean
 --enable-encoder=libfdk_aac \
 --enable-encoder=pcm_f64le \
 --enable-encoder=pcm_s16le \
+--enable-encoder=pcm_s16be \
 --disable-decoders \
 --enable-decoder=aac \
 --enable-decoder=aac_fixed \
@@ -52,6 +53,7 @@ make clean
 --enable-decoder=mpeg4 \
 --enable-decoder=pcm_f64le \
 --enable-decoder=pcm_s16le \
+--enable-decoder=pcm_s16be \
 --disable-demuxers \
 --enable-demuxer=aac \
 --enable-demuxer=h263 \
@@ -61,6 +63,7 @@ make clean
 --enable-demuxer=mpegvideo \
 --enable-demuxer=pcm_f64le \
 --enable-demuxer=pcm_s16le \
+--enable-demuxer=pcm_s16be \
 --enable-demuxer=mov \
 --enable-demuxer=m4v \
 --enable-demuxer=wav \
@@ -76,6 +79,7 @@ make clean
 --enable-muxer=h264 \
 --enable-muxer=pcm_f64le \
 --enable-muxer=pcm_s16le \
+--enable-muxer=pcm_s16be \
 --enable-libfdk-aac \
 --pkg-config="${2}/ffmpeg-pkg-config" \
 --prefix="${2}/build/${1}" \
